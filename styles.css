@@ -13,7 +13,9 @@ body {
 
 .hero {
   min-height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  width: 100%;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
   url("AI.jpg");
   background-size: cover;
   background-position: center;
@@ -21,7 +23,7 @@ body {
   color: white;
   padding: 1.5rem;
   display: flex;
-  flex-direciton: column;
+  flex-direction: column;
 }
 
 nav {
