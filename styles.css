@@ -154,11 +154,20 @@ nav a:hover {
 
 blockquote {
   margin-top: 2rem;
-  padding: 1.5rem;
+  padding: 2.5rem;
   border-left: 6px solid #38bdf8;
   background-color: #182233;
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-style: italic;
+  line-height: 1.5;
+  max-width: 900px;
+}
+
+.quote-author {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: #8ed8ff;
+  font-size: 1rem;
 }
 
 .sources-list {
